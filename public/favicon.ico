@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Singh - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Akash Singh</h1>
+            <p>Software Engineer | Problem Solver | Tech Enthusiast</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </header>
+
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>Detail-oriented software engineer with 5+ years of experience in developing scalable web applications and working with cross-functional teams. Passionate about leveraging technology to solve real-world problems.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript, HTML, CSS</li>
+            <li>React, Node.js</li>
+            <li>Python, Django</li>
+            <li>SQL, MongoDB</li>
+            <li>Git, Docker</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="job">
+            <h3>Software Engineer at XYZ Corp</h3>
+            <p>June 2020 - Present</p>
+            <ul>
+                <li>Developed and maintained web applications using React and Node.js.</li>
+                <li>Collaborated with product managers to define project requirements.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Junior Developer at ABC Inc</h3>
+            <p>Jan 2018 - May 2020</p>
+            <ul>
+                <li>Assisted in the development of internal tools using Python and Django.</li>
+                <li>Participated in code reviews and contributed to team knowledge sharing.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Personal Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A web application that allows users to track their fitness goals.</p>
+            <a href="https://github.com/akash/project-one" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>An e-commerce site built with React and Node.js.</p>
+            <a href="https://github.com/akash/project-two" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Technology in Computer Science, University of Technology, 2017</p>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Certified JavaScript Developer</li>
+            <li>Full Stack Web Development Certification</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Akash Singh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
